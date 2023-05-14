@@ -8,6 +8,4 @@ def sorted_Stack(s):
             s.append(i)
         print(s)
 
-
-
 sorted_Stack([5,2,6,13,6,1])

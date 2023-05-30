@@ -12,5 +12,4 @@ class Solution(object):
                 continue
             elif i=='../' and len(st)>1:
                 st.pop()
-
         return len(st)-1

@@ -9,3 +9,4 @@ class Solution(object):
             li.append(li[-1]+li[-2])
         print(li)
         return li[n]
+    

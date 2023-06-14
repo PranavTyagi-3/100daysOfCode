@@ -11,3 +11,4 @@ class Solution(object):
             ans[indices[i]]=s[j]
             j+=1
         return "".join(ans)
+    

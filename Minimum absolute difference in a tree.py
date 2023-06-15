@@ -26,5 +26,4 @@ class Solution(object):
             v=abs(li[i]-li[i-1])
             if v<m:
                 m=v
-
         return m

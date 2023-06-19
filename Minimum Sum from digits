@@ -1,0 +1,11 @@
+class Solution(object):
+    def minimumSum(self, num):
+        """
+        :type num: int
+        :rtype: int
+        """
+        nums=list(str(num))
+        nums.sort()
+        n1=int(nums[0]+nums[2])
+        n2=int(nums[1]+nums[3])
+        return (n1+n2)

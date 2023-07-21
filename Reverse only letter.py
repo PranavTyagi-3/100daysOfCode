@@ -16,4 +16,5 @@ class Solution(object):
                 i+=1
             if li[j].isalpha()==False:
                 j-=1
+
         return ''.join(li)
